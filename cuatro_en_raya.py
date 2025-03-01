@@ -28,19 +28,19 @@ class CuatroEnRaya:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("ERROR: número fuera de rango, intente de nuevo")
             time.sleep(2)
-            #mostrar_tablero(tablero)
+            
             return False
         elif self._tablero[0][columna] != '.':
             os.system('cls' if os.name == 'nt' else 'clear')
             print("ERROR: La columna no tiene espacios disponibles, seleccione otra columna.")
             time.sleep(3)
-            #mostrar_tablero(tablero)
+            
             return False
         else:
             for fila in range(self._filas-1,-1,-1):
                 if self._tablero[fila][columna] == '.':
                     self._tablero[fila][columna] = color
-                    #mostrar_tablero(tablero)
+                    
                     return True
         os.system('cls' if os.name == 'nt' else 'clear')
         print("ERROR: No se pudo introducir la ficha")
