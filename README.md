@@ -65,7 +65,3 @@ Si prefieres ejecutar el juego como un archivo ejecutable, se han generado las c
 ## Contribuciones
 
 ¡Si deseas mejorar este proyecto, siéntete libre de hacer un fork y enviar un pull request!
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT.
